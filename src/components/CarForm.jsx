@@ -40,7 +40,7 @@ const CarForm = () => {
               value={name}
               type="text"
               name="car-name"
-              id="name"
+              id="car-name"
               className="input is-expanded"
               onChange={handleNameChange}
             />
@@ -54,7 +54,7 @@ const CarForm = () => {
               value={cost || ""}
               type="number"
               name="car-cost"
-              id="name"
+              id="car-cost"
               className="input is-expanded"
               onChange={handleCostChange}
             />
