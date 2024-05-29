@@ -33,7 +33,7 @@ const CarForm = () => {
       <form onSubmit={handleSubmit}>
         <div className="field-group">
           <div className="field">
-            <label htmlFor="name" className="label">
+            <label htmlFor="car-name" className="label">
               Name
             </label>
             <input
@@ -47,13 +47,13 @@ const CarForm = () => {
           </div>
 
           <div className="field">
-            <label htmlFor="name" className="label">
+            <label htmlFor="car-cost" className="label">
               Cost
             </label>
             <input
               value={cost || ""}
               type="number"
-              name="car-name"
+              name="car-cost"
               id="name"
               className="input is-expanded"
               onChange={handleCostChange}
